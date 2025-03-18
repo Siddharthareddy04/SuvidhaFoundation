@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.logo {
+  width: 400px;
+  height: 150px;
+}
+#navItem1 {
+  color: black;
+  font-family: "Roboto";
+  margin-right: 10px;
+  border-radius: 10px;
+
+}
+@media screen and (min-width:992px){
+  #navItem2 {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width:992px){
+  #navItem2 {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+#navItem2 {
+  color: black;
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+#navItem3 {
+  color: white;
+  font-family: "Roboto";
+  margin-right: 10px;
+}
+#navItem3:hover {
+  color: #ffc000;
+}
+
+#navItem4 {
+  color: white;
+  font-family: "Roboto";
+  margin-right: 10px;
+}
+#navItem4:hover {
+  color: #ffc000;
+}
+#navItem5 {
+  color: white;
+  font-family: "Roboto";
+  margin-right: 10px;
+}
+#navItem5:hover {
+  color: #ffc000;
+}
+#navItem6 {
+  color: white;
+  font-family: "Roboto";
+  margin-right: 70px;
+}
+#navItem6:hover {
+  color: #ffc000;
+}
+.top {
+  background-color: #21212a;
+}
+.carousal-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+.img {
+  height: 75vh;
+  width: 100%;
+}
+.homeimage {
+  height: 100%;
+}
+@media screen and (max-width:768px) {
+  .introduction {
+    height: 80vh;
+  }
+}
+@media screen and (min-width:769px){
+  .intoduction {
+    height: 75vh;
+  }
+}
+.text {
+  font-family: "Bree serif";
+  color: grey;
+}
+.text1 {
+  font-family: "Bree serif";
+  color:coral ;
+}
+
+h5 {
+  text-decoration: underline;
+  margin-right: 50px;
+}
+.d1 {
+  color:  coral;
+  text-decoration: none;
+}
+#content {
+  font-family: "Roboto";
+  margin-top: 20px;
+}
+.participation {
+  background-image: url("pics/internshiplogo.png");
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  font-family: "Bree Serif";
+}
+.participation-heading {
+  color: coral;
+}
+.participation-para {
+  color: white;
+}
+.participation-small-para {
+  color: white;
+}
+.participation-button { 
+    background-color: transparent;
+    border: 2px solid coral;
+    color: coral;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.participation-button:hover {
+    background-color: coral;
+    color: white;
+}
+.activityh3 {
+text-align: center;
+margin-top: 15px;
+color: #ffc829;
+}
+
+.activityheading {
+  text-align: center;
+  color: grey;
+}
+
+.wcu-card {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.wcu-card-title {
+  color: #0d2436; 
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: bold;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+@media screen and (min-width:768px){
+  .wcu-card {
+    height: 260px;
+  }
+}
+.tesimonials {
+  color: coral;
+  text-align: center;
+  font-family: "Roboto";
+}
+.tesimonials-heading {
+  color: grey;
+  text-align: center;
+  font-family: "Roboto";
+}
+.card {
+  background-color: #1f2933;
+  font-family: "Roboto";
+}
+
+.layout {
+  background-color: #323f4b;
+
+}
+
+.image {
+  border-radius: 250px;
+  height: 100px;
+}
+
+.paratext {
+  color: #9aa5b1;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: "Roboto";
+}
+
+.headingtext {
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+  font-family: "Roboto";
+}
+.carousal {
+  align-items: center;
+  margin-left: 8000px;
+}
+.brand {
+  height: 200px;
+  width: 550px;
+}
+@media screen and (min-width:768px){
+  .brand {
+    height: 100px;
+    width: 250px;
+  }
+}
+.sponsers {
+  text-align: center;
+  font-family: "Bree Serif";
+  color:  #323f4b;
+
+}
+
+.lastcard {
+  background-color: #0d2436;
+}
+
+.lastimage {
+  width: 33%;
+}
+
+.lastbrand {
+  color: #5a7184;
+  background-color: #202b36;
+  font-size: 21px;
+  height: 43px;
+  width: 43px;
+  padding-top: 13px;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 17px;
+}
+
+.colour {
+  color: #5a7184;
+}
+
+.hr-line {
+  border-color: #5a7184;
+}
+
+.lastcard {
+  font-size: 18px;
+  margin-right: 10px;
+  background-color: #19232d;
+}
+
+.details {
+  font-family: "Roboto";
+}
+.info-heading {
+  color: #ffc829;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info-heading1 {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.info-heading3 {
+  color: #ffc829;
+}
+.info-para {
+  color: white;
+  margin-bottom: 15px;
+}
+.info-para1 {
+  color: white;
+  color: #ffc829;
+  text-decoration: none;
+  font-size: 17px;
+}
+.info-para1:hover {
+  color: #ffc829;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@media screen and (min-width:992px){
+  .space {
+    margin-right: 350px;
+  }
+}
+
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.table-container {
+  width: 50%;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+tr:hover {
+  background-color: #d3d3d3;
+}
+.donorheading {
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #19232d;
+}
+.donorpara {
+  font-family: "Roboto";
+}
+.donartitle {
+  text-align: center;
+}
+.galarytitle {
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: Bold;
+}
+.galarypara {
+  color: #ffc829;
+  font-family: "Bree Serif";
+}
+.galaryheading {
+  color:#19232d;
+  font-family: "Bree Serif"; 
+}
+.galaryimage {
+  width: 100%;
+  margin: 15px;
+}
+
+.helpUs {
+  height: 65vh;
+  background-image: url('pics/helpus.png');
+  background-size: cover;
+}
+
+.helpUsHeading {
+  margin-top: 100px;
+  color: coral;
+  font-family: "Bree serif";
+  font-size: 68px;
+}
+
+.helpUsCartHeading {
+  text-align: center;
+  font-family: "Roboto";
+  color: #0d2436;
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.table-container-helpus {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.donate-button {
+  background-color: #ffc000;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.donate-button:hover {
+  background-color: #e6a800;
+}
+
+.event {
+    height: 65vh;
+    background-image: url('pics/event.png');
+    background-size: cover;
+}
+.galary {
+  background-image: url('pics/donar.png');
+  height: 65vh;
+  background-size: cover;
+}
+.galarycontext {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #202b36;
+  font-weight: lighter;
+}
+.donar {
+  background-image: url('pics/donar.png');
+  height: 65vh;
+  background-size: cover;
+}
+.contact {
+  background-image: url('pics/contact.png');
+  height: 65vh;
+  background-size: cover;
+}
+
+.message-button {
+  width: 75%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 23px;
+}
+.message-button:hover {
+  background-color: #ffc000;
+  color: black;
+}
+.icon {
+  font-size: 80px;
+  color: lightslategray;
+}
+.four-attributes {
+  background-image: url('pics/keyboard.png');
+  background-size: cover;
+  height: 60vh;
+}
+.four {
+  color: white;
+  font-weight: bold;
+  font-family: "Bree Serif";
+  margin-top: 150px;
+  font-size: 35px;
+}
+@media screen and (max-width:992px){
+  .four {
+  color: white;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-top: 45px;
+  padding-top: 40px;
+  font-family: "Bree Serif";
+  }
+}
